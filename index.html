@@ -20,13 +20,13 @@
                     <h1 class="nome-logo">GameSoni</h1>
                     </div>                    
                     <ul>
-                        <li><a href="#home">Home</a></li>
-                        <li><a href="#servico">Serviços</a></li>
-                        <li><a href="#portifolio">Nossos Jogos</a></li>
-                        <li><a href="#sobre">Sobre</a></li>
-                        <li><a href="#time">Nosso Time</a></li>
-                        <li><a href="#parceiros">Parceiros</a></li>
-                        <li><a href="#contato">Fale Conosco</a></li>
+                        <li><a id="nav-home" href="#home">Home</a></li>
+                        <li><a id="nav-servico" href="#servico">Serviços</a></li>
+                        <li><a id="nav-portifolio" href="#portifolio">Nossos Jogos</a></li>
+                        <li><a id="nav-sobre" href="#sobre">Sobre</a></li>
+                        <li><a id="nav-time" href="#time">Nosso Time</a></li>
+                        <li><a id="nav-parceiros" href="#parceiros">Parceiros</a></li>
+                        <li><a id="nav-contato" href="#contato">Fale Conosco</a></li>
                     </ul>
                 </div>
             </nav>
@@ -68,7 +68,7 @@
             <section class="portifolio-container" id="portifolio">
                 <div class="portifolio-div-main">
                     <div class="portifolio-div-fixa"><h1>Portifólio</h1>
-                        <div class="portifolio-div-flex"><h3 class="nome-logo">GameSoni:</h3><h3>Onde a diversão nunca tem fim!</h3>
+                        <div class="portifolio-div-flex"><h3>GameSoni: Onde a diversão nunca tem fim!</h3>
                         </div>
                     </div>
                     <div class="portifolio-div-secundaria">
@@ -103,42 +103,62 @@
             <section class="sobre-container" id="sobre">
                 <div class="sobre-div-main">
                     <div class="titulo"><h1>Sobre</h1></div>
-                    <div class="slogan"><h3>Jornada para a Diversão: A História da<h3 class="nome-logo" id="logo-sobre">GameSoni</h3></h3></div>
+                    <div class="slogan"><h3>Jornada para a Diversão: A História da GameSoni</h3></div>
                     <div class="abertura">
-                        <h2>Onde Tudo Começou | 2013</h2>
-                        <div>
-                            <img src="img/Abertura-de-empresas.jpg" alt="primeiro lançamento">
-                            <h3>Em 2013, nascia a GameSoni, uma empresa dedicada a criar experiências de jogo excepcionais. Esse foi o ano em que nossa jornada começou, impulsionada pela paixão por games e um compromisso inabalável com a inovação. Foi um ano de sonhos, desafios e aprendizado constante.</h3>
+                        <img src="img/Abertura-de-empresas.jpg" alt="primeiro lançamento">
+                        <div id="texto-abertura">
+                            
+                            <h2>Onde Tudo Começou | 2013</h2>
+                            <div>                            
+                            <h3>GameSoni.Nascia em 2013, uma empresa dedicada a criar experiências de jogo excepcionais. Esse foi o ano em que nossa jornada começou, impulsionada pela paixão por games e um compromisso inabalável com a inovação. Foi um ano de sonhos, desafios e aprendizado constante.</h3>
+                            </div>
                         </div>
+                        
                     </div>
                     <div class="linha-do-tempo">
-                        <div class="linha-do-tempo-esquerda">
-                            <h2>Marcando o Início: Lançamento do Nosso Primeiro Jogo | 2014</h2>
-                            <div>
+                        <div class="linha-do-tempo-centro">
+                            <div class="linha-do-tempo-direita">
                                 <img src="img/almas_dos_demonios.jpeg" alt="primeiro lançamento">
-                                <h3>2014 foi um marco na nossa história com o lançamento de Almas dos Demônios. Este título desafiador cativou jogadores em todo o mundo e solidificou nossa posição no cenário dos jogos. Foi um ano de orgulho e celebração à medida que nosso jogo conquistava corações e mentes.</h3>
+                            </div>
+                            <div class="linha-do-tempo-esquerda">
+                                <h2>Marcando o Início: Lançamento do Nosso Primeiro Jogo | 2014</h2>
+                                <div>                                    
+                                    <h3>2014 foi um marco na nossa história com o lançamento de Almas dos Demônios. Este título desafiador cativou jogadores em todo o mundo e solidificou nossa posição no cenário dos jogos. Foi um ano de orgulho e celebração à medida que nosso jogo conquistava corações e mentes.</h3>
+                                </div>
                             </div>
                         </div>
-                        <div class="linha-do-tempo-direita">
+                        <div class="linha-do-tempo-centro centro">
+                            <div class="linha-do-tempo-direita">
                             <h2>A Épica Jornada de Deus da Guerra | 2016</h2>
-                            <div>
-                                <img src="img/deus_da_guerra.jpeg" alt="segundo lançamento">
+                            <div>                                
                                 <h3>Foi um período de intenso trabalho, dedicação e ansiedade, que culminou no lançamento deste título icônico. Explore os bastidores, os desafios enfrentados e a empolgação que envolveu a nossa equipe enquanto transformamos um sonho em realidade. Deus da Guerra não apenas se tornou um sucesso estrondoso, mas também redefiniu nosso compromisso com a excelência e a inovação nos jogos. Este foi um ano inesquecível na nossa história.</h3>
                             </div>
+                            </div>
+                            <div class="linha-do-tempo-esquerda">
+                                <img src="img/deus_da_guerra.jpeg" alt="segundo lançamento">
+                            </div>                            
                         </div>
-                        <div class="linha-do-tempo-esquerda">
-                            <h2>Teia de Aventuras e Horizontes Deslumbrantes: Ano do lançamento duplo | 2020</h2>
-                            <div>
+                        <div class="linha-do-tempo-centro">
+                            <div class="linha-do-tempo-direita">
                                 <img src="img/Playstation-Open-World-Horizon-Spiderman.webp" alt="lançamento">
-                                <h3>2020 testemunhou o lançamento de duas experiências memoráveis. Com Homem-Aranha, mergulhamos no mundo do super-herói, proporcionando aventuras emocionantes pelas ruas de Nova York. Horizon: Alvorada Zero nos levou a terras misteriosas e tecnológicas. Foi um ano de diversidade, criatividade e emocionantes jornadas.</h3>
+                            </div>
+                            <div class="linha-do-tempo-esquerda">
+                                <h2>Teia de Aventuras e Horizontes Deslumbrantes: Ano do lançamento duplo | 2020</h2>
+                                <div>                                    
+                                    <h3>2020 testemunhou o lançamento de duas experiências memoráveis. Com Homem-Aranha, mergulhamos no mundo do super-herói, proporcionando aventuras emocionantes pelas ruas de Nova York. Horizon: Alvorada Zero nos levou a terras misteriosas e tecnológicas. Foi um ano de diversidade, criatividade e emocionantes jornadas.</h3>
+                                </div>
                             </div>
                         </div>
-                        <div class="linha-do-tempo-direita">
-                            <h2>Despedida e Renascimento: O Adeus a O Último de Nós | 2022</h2>
-                            <div>
-                                <img src="img/o_ultimo_de_nos.jpg" alt="primeiro lançamento">
+                        <div class="linha-do-tempo-centro centro">
+                            <div class="linha-do-tempo-direita">
+                                <h2>Despedida e Renascimento: O Adeus a O Último de Nós | 2022</h2>
+                            <div>                                
                                 <h3>Em 2022, nos despedimos de O Último de Nós, uma jornada emocionante e intensa. Este foi um ano marcado pela reflexão e celebração de uma narrativa incrível. Continuamos comprometidos com a criação de experiências que ressoam nas mentes e corações dos jogadores.</h3>
                             </div>
+                            </div>
+                            <div class="linha-do-tempo-esquerda">
+                                <img src="img/o_ultimo_de_nos.jpg" alt="primeiro lançamento">
+                            </div>                            
                         </div>
                     </div>
                     <div class="novidade">
@@ -155,7 +175,7 @@
                 <h3>Construindo experiências que cativam e inspiram.</h3>
                 <div class="time-div-main">
                     <div class="time-div-secundaria">
-                        <img src="img/membro1.jpeg" alt="membro1">
+                        <img class="membros" src="img/membro1.jpeg" alt="membro1">
                         <h2>Akari Tanaka</h2>
                         <h4>Game Designer</h4>
                         <div class="social">
@@ -166,7 +186,7 @@
                         </div>
                     </div>
                     <div class="time-div-secundaria">
-                        <img src="img/membro2.jpeg" alt="membro2">
+                        <img class="membros" src="img/membro2.jpeg" alt="membro2">
                         <h2>Isabella Rodriguez</h2>
                         <h4>Game Developer</h4>
                         <div class="social">
@@ -177,7 +197,7 @@
                         </div>
                     </div>
                     <div class="time-div-secundaria">
-                        <img src="img/membro3.jpeg" alt="membro3">
+                        <img class="membros" src="img/membro3.jpeg" alt="membro3">
                         <h2>Malik Johnson</h2>
                         <h4>Game QA Tester</h4>
                         <div class="social">
@@ -188,7 +208,7 @@
                         </div>
                     </div>
                     <div class="time-div-secundaria">
-                        <img src="img/membro4.jpeg" alt="membro4">
+                        <img class="membros" src="img/membro4.jpeg" alt="membro4">
                         <h2>Amir Khoury</h2>
                         <h4>Game Developer</h4>
                         <div class="social">
@@ -199,17 +219,19 @@
                         </div>
                     </div>
                     <div class="time-div-secundaria">
-                        <img src="img/membro5.jpeg" alt="membro5">
+                        <img class="membros" src="img/membro5.jpeg" alt="membro5">
                         <h2>Francisco Silva</h2>
                         <h4>CEO</h4>
                         <div class="social">
-                            <a href="https://www.facebook.com/"><img src="img/facebook.png" alt="facebook"></a>
-                            <a href="https://www.instagram.com/"><img src="img/instagram.png" alt="instagram"></a>
-                            <a href="https://twitter.com/"><img src="img/twitter.png" alt="twitter"></a>
-                            <a href="https://www.linkedin.com/"><img src="img/linkedin.png" alt="linkedin"></a>
+                            <a href="https://www.facebook.com/deassissep/"><img src="img/facebook.png" alt="facebook"></a>
+                            <a href="https://www.instagram.com/deassissep/"><img src="img/instagram.png" alt="instagram"></a>
+                            <a href="https://twitter.com/deassisjp/"><img src="img/twitter.png" alt="twitter"></a>
+                            <a href="https://www.linkedin.com/in/assis26/"><img src="img/linkedin.png" alt="linkedin"></a>
                         </div>
                     </div>
                 </div>
+                <div class="time-rodape"><h3>Com sua paixão e dedicação, a equipe da GameSoni transforma sonhos em realidade no mundo dos jogos.</h3></div>
+                
             </section>
             <section class="parceiros-container" id="parceiros">
                 <div class="parceiros-div-main">
@@ -233,11 +255,11 @@
                                         <div><input type="text" name="fone" placeholder="Digite o seu Telefone"></div>
                                     </div>
                                     <div class="contato-div-mensagem">
-                                        <input type="text" name="mensagem" placeholder="Digite a sua Mensagem">
+                                        <input id="mensagem" type="text" name="mensagem" placeholder="Digite a sua Mensagem">
                                     </div>                                    
                                 </div>
                                 <div class="contato-div-terciaria">
-                                    <input type="submit" value="Enviar">
+                                    <input id="enviar" type="submit" value="Enviar">
                                 </div>
                             </div>
                         </form>                    
@@ -247,7 +269,7 @@
                 <div class="wrapper">
                     <div class="footer-box">
                         <div class="company-footer">
-                            <h5>copyright &copy</h5><h5 class="nome-logo">GameSoni</h5><h5> 2023</h5>
+                            <h5>copyright &copy</h5><h5 style="font-family: 'Agbalumo';">GameSoni</h5><h5> 2023</h5>
                         </div>
                     </div>
                     <div class="footer-box">
